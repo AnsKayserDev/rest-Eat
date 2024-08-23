@@ -1,6 +1,12 @@
-DEV Instructions
+Dev Instructions
 
 - npm install && cd ios/ && pod install && cd../ && npx react-native run-ios
+- There is not boiler plate of expo used and everything is created from scratch to have less dependencies in the application.
+- Comments are added where flow/composition of components can be enhanced more.
+- Some of the links for images are hardcoded because of the authentication issues while rendering
+- Helpers, hooks for mount check and inteceptors are added to add logic at different layers of the application.
+- Due to the time constraint and dependecy of setting up the system to work and installations of xcoide and other dependecies, the Application has been created in one and half day and i would like to explain more what can be done more in order to enhance the arhitect and code composition. I have focused more on completing the fucntionality for the application to make sense how ever i can explain how the functionality could have been ehanced more and what we can do for making the application more atttractive.
+
 
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
